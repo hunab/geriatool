@@ -1,0 +1,55 @@
+<h1>Listing treatments</h1>
+
+<table>
+  <tr>
+    <th>Treatment</th>
+    <th>National code</th>
+    <th>Introduction</th>
+    <th>De</th>
+    <th>Co</th>
+    <th>Ce</th>
+    <th>No</th>
+    <th>Otro</th>
+    <th>Start date</th>
+    <th>End date</th>
+    <th>Num pills</th>
+    <th>Prescriptions</th>
+    <th>Current treatment</th>
+    <th>Modify</th>
+    <th>Med treat order</th>
+    <th>Target</th>
+    <th>Prize</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @treatments.each do |treatment| %>
+  <tr>
+    <td><%= treatment.treatment %></td>
+    <td><%= treatment.national_code %></td>
+    <td><%= treatment.introduction %></td>
+    <td><%= treatment.de %></td>
+    <td><%= treatment.co %></td>
+    <td><%= treatment.ce %></td>
+    <td><%= treatment.no %></td>
+    <td><%= treatment.otro %></td>
+    <td><%= treatment.start_date %></td>
+    <td><%= treatment.end_date %></td>
+    <td><%= treatment.num_pills %></td>
+    <td><%= treatment.prescriptions %></td>
+    <td><%= treatment.current_treatment %></td>
+    <td><%= treatment.modify %></td>
+    <td><%= treatment.med_treat_order %></td>
+    <td><%= treatment.target %></td>
+    <td><%= treatment.prize %></td>
+    <td><%= link_to 'Show', treatment %></td>
+    <td><%= link_to 'Edit', edit_treatment_path(treatment) %></td>
+    <td><%= link_to 'Destroy', treatment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Treatment', new_treatment_path %>

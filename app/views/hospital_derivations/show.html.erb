@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Derivation date:</b>
+  <%= @hospital_derivation.derivation_date %>
+</p>
+
+<p>
+  <b>Derivation cause:</b>
+  <%= @hospital_derivation.derivation_cause %>
+</p>
+
+<p>
+  <b>Derivation hospital:</b>
+  <%= @hospital_derivation.derivation_hospital %>
+</p>
+
+<p>
+  <b>Derivation print:</b>
+  <%= @hospital_derivation.derivation_print %>
+</p>
+
+<p>
+  <b>Discharge date:</b>
+  <%= @hospital_derivation.discharge_date %>
+</p>
+
+<p>
+  <b>Discharge diagnosis:</b>
+  <%= @hospital_derivation.discharge_diagnosis %>
+</p>
+
+
+<%= link_to 'Edit', edit_hospital_derivation_path(@hospital_derivation) %> |
+<%= link_to 'Back', hospital_derivations_path %>

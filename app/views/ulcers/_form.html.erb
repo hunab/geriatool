@@ -1,0 +1,29 @@
+<%= form_for(@ulcer) do |f| %>
+  <% if @ulcer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ulcer.errors.count, "error") %> prohibited this ulcer from being saved:</h2>
+
+      <ul>
+      <% @ulcer.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ulcer_start_date %><br />
+    <%= f.date_select :ulcer_start_date %>
+  </div>
+  <div class="field">
+    <%= f.label :ulcer %><br />
+    <%= f.text_field :ulcer %>
+  </div>
+  <div class="field">
+    <%= f.label :ulder_end_date %><br />
+    <%= f.date_select :ulder_end_date %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

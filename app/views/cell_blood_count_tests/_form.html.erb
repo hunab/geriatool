@@ -1,0 +1,73 @@
+<%= form_for(@cell_blood_count_test) do |f| %>
+  <% if @cell_blood_count_test.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cell_blood_count_test.errors.count, "error") %> prohibited this cell_blood_count_test from being saved:</h2>
+
+      <ul>
+      <% @cell_blood_count_test.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :extraction_date %><br />
+    <%= f.date_select :extraction_date %>
+  </div>
+  <div class="field">
+    <%= f.label :red_blood_cells %><br />
+    <%= f.text_field :red_blood_cells %>
+  </div>
+  <div class="field">
+    <%= f.label :hemoglobin %><br />
+    <%= f.text_field :hemoglobin %>
+  </div>
+  <div class="field">
+    <%= f.label :hematocrit %><br />
+    <%= f.text_field :hematocrit %>
+  </div>
+  <div class="field">
+    <%= f.label :vcm %><br />
+    <%= f.text_field :vcm %>
+  </div>
+  <div class="field">
+    <%= f.label :hcm %><br />
+    <%= f.text_field :hcm %>
+  </div>
+  <div class="field">
+    <%= f.label :chcm %><br />
+    <%= f.text_field :chcm %>
+  </div>
+  <div class="field">
+    <%= f.label :platelet %><br />
+    <%= f.text_field :platelet %>
+  </div>
+  <div class="field">
+    <%= f.label :leukocyte %><br />
+    <%= f.text_field :leukocyte %>
+  </div>
+  <div class="field">
+    <%= f.label :neutrophils %><br />
+    <%= f.text_field :neutrophils %>
+  </div>
+  <div class="field">
+    <%= f.label :cluster_differentiation %><br />
+    <%= f.text_field :cluster_differentiation %>
+  </div>
+  <div class="field">
+    <%= f.label :monocyte %><br />
+    <%= f.text_field :monocyte %>
+  </div>
+  <div class="field">
+    <%= f.label :eosinophil %><br />
+    <%= f.text_field :eosinophil %>
+  </div>
+  <div class="field">
+    <%= f.label :basophil %><br />
+    <%= f.text_field :basophil %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

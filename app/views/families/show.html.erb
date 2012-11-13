@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Family name:</b>
+  <%= @family.family_name %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @family.phone %>
+</p>
+
+<p>
+  <b>Mobile phone:</b>
+  <%= @family.mobile_phone %>
+</p>
+
+<p>
+  <b>Family name 2:</b>
+  <%= @family.family_name_2 %>
+</p>
+
+<p>
+  <b>Phone 2:</b>
+  <%= @family.phone_2 %>
+</p>
+
+<p>
+  <b>Mobile phone 2:</b>
+  <%= @family.mobile_phone_2 %>
+</p>
+
+
+<%= link_to 'Edit', edit_family_path(@family) %> |
+<%= link_to 'Back', families_path %>

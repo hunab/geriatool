@@ -1,0 +1,65 @@
+<h1>Listing biochemistry_tests</h1>
+
+<table>
+  <tr>
+    <th>Extraction date</th>
+    <th>Glucemy</th>
+    <th>Hba1c</th>
+    <th>Urea</th>
+    <th>Creatinine</th>
+    <th>Uric acid</th>
+    <th>Cholesterol</th>
+    <th>Chdl</th>
+    <th>Cldl</th>
+    <th>Triglycerides</th>
+    <th>Ast</th>
+    <th>Alt</th>
+    <th>Iron</th>
+    <th>Ferritin</th>
+    <th>Sodium</th>
+    <th>Potassium</th>
+    <th>Vsg</th>
+    <th>Cobalamins vitb12</th>
+    <th>Ac folico</th>
+    <th>Tsh</th>
+    <th>Ft3</th>
+    <th>Ft4</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @biochemistry_tests.each do |biochemistry_test| %>
+  <tr>
+    <td><%= biochemistry_test.extraction_date %></td>
+    <td><%= biochemistry_test.glucemy %></td>
+    <td><%= biochemistry_test.hba1c %></td>
+    <td><%= biochemistry_test.urea %></td>
+    <td><%= biochemistry_test.creatinine %></td>
+    <td><%= biochemistry_test.uric_acid %></td>
+    <td><%= biochemistry_test.cholesterol %></td>
+    <td><%= biochemistry_test.cHDL %></td>
+    <td><%= biochemistry_test.cLDL %></td>
+    <td><%= biochemistry_test.triglycerides %></td>
+    <td><%= biochemistry_test.ast %></td>
+    <td><%= biochemistry_test.alt %></td>
+    <td><%= biochemistry_test.iron %></td>
+    <td><%= biochemistry_test.ferritin %></td>
+    <td><%= biochemistry_test.sodium %></td>
+    <td><%= biochemistry_test.potassium %></td>
+    <td><%= biochemistry_test.vsg %></td>
+    <td><%= biochemistry_test.cobalamins_vitb12 %></td>
+    <td><%= biochemistry_test.ac_folico %></td>
+    <td><%= biochemistry_test.tsh %></td>
+    <td><%= biochemistry_test.ft3 %></td>
+    <td><%= biochemistry_test.ft4 %></td>
+    <td><%= link_to 'Show', biochemistry_test %></td>
+    <td><%= link_to 'Edit', edit_biochemistry_test_path(biochemistry_test) %></td>
+    <td><%= link_to 'Destroy', biochemistry_test, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Biochemistry test', new_biochemistry_test_path %>

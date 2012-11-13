@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ulcer start date:</b>
+  <%= @ulcer.ulcer_start_date %>
+</p>
+
+<p>
+  <b>Ulcer:</b>
+  <%= @ulcer.ulcer %>
+</p>
+
+<p>
+  <b>Ulder end date:</b>
+  <%= @ulcer.ulder_end_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_ulcer_path(@ulcer) %> |
+<%= link_to 'Back', ulcers_path %>

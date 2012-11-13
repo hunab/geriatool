@@ -1,0 +1,41 @@
+<%= form_for(@hospital_derivation) do |f| %>
+  <% if @hospital_derivation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hospital_derivation.errors.count, "error") %> prohibited this hospital_derivation from being saved:</h2>
+
+      <ul>
+      <% @hospital_derivation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :derivation_date %><br />
+    <%= f.date_select :derivation_date %>
+  </div>
+  <div class="field">
+    <%= f.label :derivation_cause %><br />
+    <%= f.text_area :derivation_cause %>
+  </div>
+  <div class="field">
+    <%= f.label :derivation_hospital %><br />
+    <%= f.text_field :derivation_hospital %>
+  </div>
+  <div class="field">
+    <%= f.label :derivation_print %><br />
+    <%= f.number_field :derivation_print %>
+  </div>
+  <div class="field">
+    <%= f.label :discharge_date %><br />
+    <%= f.date_select :discharge_date %>
+  </div>
+  <div class="field">
+    <%= f.label :discharge_diagnosis %><br />
+    <%= f.text_area :discharge_diagnosis %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

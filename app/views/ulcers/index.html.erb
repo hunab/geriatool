@@ -1,0 +1,27 @@
+<h1>Listing ulcers</h1>
+
+<table>
+  <tr>
+    <th>Ulcer start date</th>
+    <th>Ulcer</th>
+    <th>Ulder end date</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ulcers.each do |ulcer| %>
+  <tr>
+    <td><%= ulcer.ulcer_start_date %></td>
+    <td><%= ulcer.ulcer %></td>
+    <td><%= ulcer.ulder_end_date %></td>
+    <td><%= link_to 'Show', ulcer %></td>
+    <td><%= link_to 'Edit', edit_ulcer_path(ulcer) %></td>
+    <td><%= link_to 'Destroy', ulcer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Ulcer', new_ulcer_path %>

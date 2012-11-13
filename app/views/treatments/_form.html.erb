@@ -1,0 +1,85 @@
+<%= form_for(@treatment) do |f| %>
+  <% if @treatment.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@treatment.errors.count, "error") %> prohibited this treatment from being saved:</h2>
+
+      <ul>
+      <% @treatment.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :treatment %><br />
+    <%= f.text_field :treatment %>
+  </div>
+  <div class="field">
+    <%= f.label :national_code %><br />
+    <%= f.text_field :national_code %>
+  </div>
+  <div class="field">
+    <%= f.label :introduction %><br />
+    <%= f.text_field :introduction %>
+  </div>
+  <div class="field">
+    <%= f.label :de %><br />
+    <%= f.text_field :de %>
+  </div>
+  <div class="field">
+    <%= f.label :co %><br />
+    <%= f.text_field :co %>
+  </div>
+  <div class="field">
+    <%= f.label :ce %><br />
+    <%= f.text_field :ce %>
+  </div>
+  <div class="field">
+    <%= f.label :no %><br />
+    <%= f.text_field :no %>
+  </div>
+  <div class="field">
+    <%= f.label :otro %><br />
+    <%= f.text_field :otro %>
+  </div>
+  <div class="field">
+    <%= f.label :start_date %><br />
+    <%= f.date_select :start_date %>
+  </div>
+  <div class="field">
+    <%= f.label :end_date %><br />
+    <%= f.date_select :end_date %>
+  </div>
+  <div class="field">
+    <%= f.label :num_pills %><br />
+    <%= f.number_field :num_pills %>
+  </div>
+  <div class="field">
+    <%= f.label :prescriptions %><br />
+    <%= f.number_field :prescriptions %>
+  </div>
+  <div class="field">
+    <%= f.label :current_treatment %><br />
+    <%= f.number_field :current_treatment %>
+  </div>
+  <div class="field">
+    <%= f.label :modify %><br />
+    <%= f.text_field :modify %>
+  </div>
+  <div class="field">
+    <%= f.label :med_treat_order %><br />
+    <%= f.number_field :med_treat_order %>
+  </div>
+  <div class="field">
+    <%= f.label :target %><br />
+    <%= f.number_field :target %>
+  </div>
+  <div class="field">
+    <%= f.label :prize %><br />
+    <%= f.text_field :prize %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

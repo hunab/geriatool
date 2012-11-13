@@ -1,0 +1,2 @@
+module HospitalDerivationsHelper
+end

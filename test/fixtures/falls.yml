@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fall_date: 2012-11-13
+  fall: MyString
+
+two:
+  fall_date: 2012-11-13
+  fall: MyString

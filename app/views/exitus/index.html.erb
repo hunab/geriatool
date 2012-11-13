@@ -1,0 +1,27 @@
+<h1>Listing exitus</h1>
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Exitus diagnosis</th>
+    <th>Place exitus</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @exitus.each do |exitu| %>
+  <tr>
+    <td><%= exitu.date %></td>
+    <td><%= exitu.exitus_diagnosis %></td>
+    <td><%= exitu.place_exitus %></td>
+    <td><%= link_to 'Show', exitu %></td>
+    <td><%= link_to 'Edit', edit_exitu_path(exitu) %></td>
+    <td><%= link_to 'Destroy', exitu, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Exitu', new_exitu_path %>

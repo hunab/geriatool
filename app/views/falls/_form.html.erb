@@ -1,0 +1,25 @@
+<%= form_for(@fall) do |f| %>
+  <% if @fall.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@fall.errors.count, "error") %> prohibited this fall from being saved:</h2>
+
+      <ul>
+      <% @fall.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :fall_date %><br />
+    <%= f.date_select :fall_date %>
+  </div>
+  <div class="field">
+    <%= f.label :fall %><br />
+    <%= f.text_field :fall %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

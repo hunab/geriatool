@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  diagnosis: MyString
+  diagnosis_date: 2012-11-13
+  cie_10: MyString
+
+two:
+  diagnosis: MyString
+  diagnosis_date: 2012-11-13
+  cie_10: MyString

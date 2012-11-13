@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Allergies:</b>
+  <%= @medical_record.allergies %>
+</p>
+
+<p>
+  <b>Decreasings:</b>
+  <%= @medical_record.decreasings %>
+</p>
+
+<p>
+  <b>Diet:</b>
+  <%= @medical_record.diet %>
+</p>
+
+<p>
+  <b>Incontinence:</b>
+  <%= @medical_record.incontinence %>
+</p>
+
+<p>
+  <b>Objective:</b>
+  <%= @medical_record.objective %>
+</p>
+
+<p>
+  <b>Admission date:</b>
+  <%= @medical_record.admission_date %>
+</p>
+
+<p>
+  <b>Exit date:</b>
+  <%= @medical_record.exit_date %>
+</p>
+
+<p>
+  <b>Exit report:</b>
+  <%= @medical_record.exit_report %>
+</p>
+
+
+<%= link_to 'Edit', edit_medical_record_path(@medical_record) %> |
+<%= link_to 'Back', medical_records_path %>

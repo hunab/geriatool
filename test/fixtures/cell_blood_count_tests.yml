@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  extraction_date: 2012-11-13
+  red_blood_cells: MyString
+  hemoglobin: MyString
+  hematocrit: MyString
+  vcm: MyString
+  hcm: MyString
+  chcm: MyString
+  platelet: MyString
+  leukocyte: MyString
+  neutrophils: MyString
+  cluster_differentiation: MyString
+  monocyte: MyString
+  eosinophil: MyString
+  basophil: MyString
+
+two:
+  extraction_date: 2012-11-13
+  red_blood_cells: MyString
+  hemoglobin: MyString
+  hematocrit: MyString
+  vcm: MyString
+  hcm: MyString
+  chcm: MyString
+  platelet: MyString
+  leukocyte: MyString
+  neutrophils: MyString
+  cluster_differentiation: MyString
+  monocyte: MyString
+  eosinophil: MyString
+  basophil: MyString

@@ -1,0 +1,105 @@
+<%= form_for(@biochemistry_test) do |f| %>
+  <% if @biochemistry_test.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@biochemistry_test.errors.count, "error") %> prohibited this biochemistry_test from being saved:</h2>
+
+      <ul>
+      <% @biochemistry_test.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :extraction_date %><br />
+    <%= f.date_select :extraction_date %>
+  </div>
+  <div class="field">
+    <%= f.label :glucemy %><br />
+    <%= f.text_field :glucemy %>
+  </div>
+  <div class="field">
+    <%= f.label :hba1c %><br />
+    <%= f.text_field :hba1c %>
+  </div>
+  <div class="field">
+    <%= f.label :urea %><br />
+    <%= f.text_field :urea %>
+  </div>
+  <div class="field">
+    <%= f.label :creatinine %><br />
+    <%= f.text_field :creatinine %>
+  </div>
+  <div class="field">
+    <%= f.label :uric_acid %><br />
+    <%= f.text_field :uric_acid %>
+  </div>
+  <div class="field">
+    <%= f.label :cholesterol %><br />
+    <%= f.text_field :cholesterol %>
+  </div>
+  <div class="field">
+    <%= f.label :cHDL %><br />
+    <%= f.text_field :cHDL %>
+  </div>
+  <div class="field">
+    <%= f.label :cLDL %><br />
+    <%= f.text_field :cLDL %>
+  </div>
+  <div class="field">
+    <%= f.label :triglycerides %><br />
+    <%= f.text_field :triglycerides %>
+  </div>
+  <div class="field">
+    <%= f.label :ast %><br />
+    <%= f.text_field :ast %>
+  </div>
+  <div class="field">
+    <%= f.label :alt %><br />
+    <%= f.text_field :alt %>
+  </div>
+  <div class="field">
+    <%= f.label :iron %><br />
+    <%= f.text_field :iron %>
+  </div>
+  <div class="field">
+    <%= f.label :ferritin %><br />
+    <%= f.text_field :ferritin %>
+  </div>
+  <div class="field">
+    <%= f.label :sodium %><br />
+    <%= f.text_field :sodium %>
+  </div>
+  <div class="field">
+    <%= f.label :potassium %><br />
+    <%= f.text_field :potassium %>
+  </div>
+  <div class="field">
+    <%= f.label :vsg %><br />
+    <%= f.text_field :vsg %>
+  </div>
+  <div class="field">
+    <%= f.label :cobalamins_vitb12 %><br />
+    <%= f.text_field :cobalamins_vitb12 %>
+  </div>
+  <div class="field">
+    <%= f.label :ac_folico %><br />
+    <%= f.text_field :ac_folico %>
+  </div>
+  <div class="field">
+    <%= f.label :tsh %><br />
+    <%= f.text_field :tsh %>
+  </div>
+  <div class="field">
+    <%= f.label :ft3 %><br />
+    <%= f.text_field :ft3 %>
+  </div>
+  <div class="field">
+    <%= f.label :ft4 %><br />
+    <%= f.text_field :ft4 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,49 @@
+<h1>Listing cell_blood_count_tests</h1>
+
+<table>
+  <tr>
+    <th>Extraction date</th>
+    <th>Red blood cells</th>
+    <th>Hemoglobin</th>
+    <th>Hematocrit</th>
+    <th>Vcm</th>
+    <th>Hcm</th>
+    <th>Chcm</th>
+    <th>Platelet</th>
+    <th>Leukocyte</th>
+    <th>Neutrophils</th>
+    <th>Cluster differentiation</th>
+    <th>Monocyte</th>
+    <th>Eosinophil</th>
+    <th>Basophil</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @cell_blood_count_tests.each do |cell_blood_count_test| %>
+  <tr>
+    <td><%= cell_blood_count_test.extraction_date %></td>
+    <td><%= cell_blood_count_test.red_blood_cells %></td>
+    <td><%= cell_blood_count_test.hemoglobin %></td>
+    <td><%= cell_blood_count_test.hematocrit %></td>
+    <td><%= cell_blood_count_test.vcm %></td>
+    <td><%= cell_blood_count_test.hcm %></td>
+    <td><%= cell_blood_count_test.chcm %></td>
+    <td><%= cell_blood_count_test.platelet %></td>
+    <td><%= cell_blood_count_test.leukocyte %></td>
+    <td><%= cell_blood_count_test.neutrophils %></td>
+    <td><%= cell_blood_count_test.cluster_differentiation %></td>
+    <td><%= cell_blood_count_test.monocyte %></td>
+    <td><%= cell_blood_count_test.eosinophil %></td>
+    <td><%= cell_blood_count_test.basophil %></td>
+    <td><%= link_to 'Show', cell_blood_count_test %></td>
+    <td><%= link_to 'Edit', edit_cell_blood_count_test_path(cell_blood_count_test) %></td>
+    <td><%= link_to 'Destroy', cell_blood_count_test, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Cell blood count test', new_cell_blood_count_test_path %>

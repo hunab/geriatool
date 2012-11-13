@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  birth_date: 2012-11-13
+  sex: MyString
+  dni: MyString
+  cip: MyString
+  image: MyString
+  room: MyString
+  admission: 1
+  exit: 1
+  exitus: 1
+  registered: 1
+  code: MyString
+  cap: MyString
+  cap_doctor: MyString
+  insurance_comp: MyString
+
+two:
+  name: MyString
+  birth_date: 2012-11-13
+  sex: MyString
+  dni: MyString
+  cip: MyString
+  image: MyString
+  room: MyString
+  admission: 1
+  exit: 1
+  exitus: 1
+  registered: 1
+  code: MyString
+  cap: MyString
+  cap_doctor: MyString
+  insurance_comp: MyString

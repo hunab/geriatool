@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cont start date:</b>
+  <%= @containment.cont_start_date %>
+</p>
+
+<p>
+  <b>Revision date:</b>
+  <%= @containment.revision_date %>
+</p>
+
+<p>
+  <b>Cont end date:</b>
+  <%= @containment.cont_end_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_containment_path(@containment) %> |
+<%= link_to 'Back', containments_path %>

@@ -1,0 +1,31 @@
+<h1>Listing clinical_courses</h1>
+
+<table>
+  <tr>
+    <th>Course date</th>
+    <th>M</th>
+    <th>E</th>
+    <th>A</th>
+    <th>P</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @clinical_courses.each do |clinical_course| %>
+  <tr>
+    <td><%= clinical_course.course_date %></td>
+    <td><%= clinical_course.M %></td>
+    <td><%= clinical_course.E %></td>
+    <td><%= clinical_course.A %></td>
+    <td><%= clinical_course.P %></td>
+    <td><%= link_to 'Show', clinical_course %></td>
+    <td><%= link_to 'Edit', edit_clinical_course_path(clinical_course) %></td>
+    <td><%= link_to 'Destroy', clinical_course, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Clinical course', new_clinical_course_path %>

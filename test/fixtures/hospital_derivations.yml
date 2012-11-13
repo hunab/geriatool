@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  derivation_date: 2012-11-13
+  derivation_cause: MyText
+  derivation_hospital: MyString
+  derivation_print: 1
+  discharge_date: 2012-11-13
+  discharge_diagnosis: MyText
+
+two:
+  derivation_date: 2012-11-13
+  derivation_cause: MyText
+  derivation_hospital: MyString
+  derivation_print: 1
+  discharge_date: 2012-11-13
+  discharge_diagnosis: MyText

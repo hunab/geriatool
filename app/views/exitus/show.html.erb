@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Date:</b>
+  <%= @exitu.date %>
+</p>
+
+<p>
+  <b>Exitus diagnosis:</b>
+  <%= @exitu.exitus_diagnosis %>
+</p>
+
+<p>
+  <b>Place exitus:</b>
+  <%= @exitu.place_exitus %>
+</p>
+
+
+<%= link_to 'Edit', edit_exitu_path(@exitu) %> |
+<%= link_to 'Back', exitus_path %>

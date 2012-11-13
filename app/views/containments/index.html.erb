@@ -1,0 +1,27 @@
+<h1>Listing containments</h1>
+
+<table>
+  <tr>
+    <th>Cont start date</th>
+    <th>Revision date</th>
+    <th>Cont end date</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @containments.each do |containment| %>
+  <tr>
+    <td><%= containment.cont_start_date %></td>
+    <td><%= containment.revision_date %></td>
+    <td><%= containment.cont_end_date %></td>
+    <td><%= link_to 'Show', containment %></td>
+    <td><%= link_to 'Edit', edit_containment_path(containment) %></td>
+    <td><%= link_to 'Destroy', containment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Containment', new_containment_path %>

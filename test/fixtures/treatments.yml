@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  treatment: MyString
+  national_code: MyString
+  introduction: MyString
+  de: 1.5
+  co: 1.5
+  ce: 1.5
+  no: 1.5
+  otro: 1.5
+  start_date: 2012-11-13
+  end_date: 2012-11-13
+  num_pills: 1
+  prescriptions: 1
+  current_treatment: 1
+  modify: MyString
+  med_treat_order: 1
+  target: 1
+  prize: 1.5
+
+two:
+  treatment: MyString
+  national_code: MyString
+  introduction: MyString
+  de: 1.5
+  co: 1.5
+  ce: 1.5
+  no: 1.5
+  otro: 1.5
+  start_date: 2012-11-13
+  end_date: 2012-11-13
+  num_pills: 1
+  prescriptions: 1
+  current_treatment: 1
+  modify: MyString
+  med_treat_order: 1
+  target: 1
+  prize: 1.5

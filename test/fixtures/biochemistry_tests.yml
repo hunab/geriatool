@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  extraction_date: 2012-11-13
+  glucemy: MyString
+  hba1c: MyString
+  urea: MyString
+  creatinine: MyString
+  uric_acid: MyString
+  cholesterol: MyString
+  cHDL: MyString
+  cLDL: MyString
+  triglycerides: MyString
+  ast: MyString
+  alt: MyString
+  iron: MyString
+  ferritin: MyString
+  sodium: MyString
+  potassium: MyString
+  vsg: MyString
+  cobalamins_vitb12: MyString
+  ac_folico: MyString
+  tsh: MyString
+  ft3: MyString
+  ft4: MyString
+
+two:
+  extraction_date: 2012-11-13
+  glucemy: MyString
+  hba1c: MyString
+  urea: MyString
+  creatinine: MyString
+  uric_acid: MyString
+  cholesterol: MyString
+  cHDL: MyString
+  cLDL: MyString
+  triglycerides: MyString
+  ast: MyString
+  alt: MyString
+  iron: MyString
+  ferritin: MyString
+  sodium: MyString
+  potassium: MyString
+  vsg: MyString
+  cobalamins_vitb12: MyString
+  ac_folico: MyString
+  tsh: MyString
+  ft3: MyString
+  ft4: MyString

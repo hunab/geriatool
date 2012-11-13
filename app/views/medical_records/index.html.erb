@@ -1,0 +1,37 @@
+<h1>Listing medical_records</h1>
+
+<table>
+  <tr>
+    <th>Allergies</th>
+    <th>Decreasings</th>
+    <th>Diet</th>
+    <th>Incontinence</th>
+    <th>Objective</th>
+    <th>Admission date</th>
+    <th>Exit date</th>
+    <th>Exit report</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @medical_records.each do |medical_record| %>
+  <tr>
+    <td><%= medical_record.allergies %></td>
+    <td><%= medical_record.decreasings %></td>
+    <td><%= medical_record.diet %></td>
+    <td><%= medical_record.incontinence %></td>
+    <td><%= medical_record.objective %></td>
+    <td><%= medical_record.admission_date %></td>
+    <td><%= medical_record.exit_date %></td>
+    <td><%= medical_record.exit_report %></td>
+    <td><%= link_to 'Show', medical_record %></td>
+    <td><%= link_to 'Edit', edit_medical_record_path(medical_record) %></td>
+    <td><%= link_to 'Destroy', medical_record, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Medical record', new_medical_record_path %>

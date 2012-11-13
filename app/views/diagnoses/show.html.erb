@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Diagnosis:</b>
+  <%= @diagnosis.diagnosis %>
+</p>
+
+<p>
+  <b>Diagnosis date:</b>
+  <%= @diagnosis.diagnosis_date %>
+</p>
+
+<p>
+  <b>Cie 10:</b>
+  <%= @diagnosis.cie_10 %>
+</p>
+
+
+<%= link_to 'Edit', edit_diagnosis_path(@diagnosis) %> |
+<%= link_to 'Back', diagnoses_path %>

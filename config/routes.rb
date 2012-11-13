@@ -1,5 +1,38 @@
 Geriatool::Application.routes.draw do
+  resources :biochemistry_tests
+
+  resources :cell_blood_count_tests
+
+  resources :treatments
+
+  resources :hospital_derivations
+
+  resources :clinical_courses
+
+  resources :falls
+
+  resources :ulcers
+
+  resources :vaccines
+
+  resources :diagnoses
+
+  resources :containments
+
+  resources :galeries
+
+  resources :medical_records
+
+  resources :exitus
+
+  resources :families
+
+  resources :patients
+
   resources :medicines
+
+  root :to => 'patients#init'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

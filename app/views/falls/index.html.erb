@@ -1,0 +1,25 @@
+<h1>Listing falls</h1>
+
+<table>
+  <tr>
+    <th>Fall date</th>
+    <th>Fall</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @falls.each do |fall| %>
+  <tr>
+    <td><%= fall.fall_date %></td>
+    <td><%= fall.fall %></td>
+    <td><%= link_to 'Show', fall %></td>
+    <td><%= link_to 'Edit', edit_fall_path(fall) %></td>
+    <td><%= link_to 'Destroy', fall, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Fall', new_fall_path %>

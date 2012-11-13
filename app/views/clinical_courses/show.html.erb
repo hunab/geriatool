@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Course date:</b>
+  <%= @clinical_course.course_date %>
+</p>
+
+<p>
+  <b>M:</b>
+  <%= @clinical_course.M %>
+</p>
+
+<p>
+  <b>E:</b>
+  <%= @clinical_course.E %>
+</p>
+
+<p>
+  <b>A:</b>
+  <%= @clinical_course.A %>
+</p>
+
+<p>
+  <b>P:</b>
+  <%= @clinical_course.P %>
+</p>
+
+
+<%= link_to 'Edit', edit_clinical_course_path(@clinical_course) %> |
+<%= link_to 'Back', clinical_courses_path %>

@@ -1,4 +1,8 @@
 class PatientsController < ApplicationController
+  
+  load_and_authorize_resource
+  before_filter :authenticate_user!
+
   # GET /patients
   # GET /patients.json
   def index
@@ -25,14 +29,14 @@ class PatientsController < ApplicationController
   # GET /patients/new.json
   def new
     @patient = Patient.new
-
+    @family = Family.new
+    #@medical_record = Medical_record.new
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @patient }
     end
   end
-
-  # GET /patients/1/edit
+ # GET /patients/1/edit
   def edit
     @patient = Patient.find(params[:id])
   end
@@ -41,7 +45,10 @@ class PatientsController < ApplicationController
   # POST /patients.json
   def create
     @patient = Patient.new(params[:patient])
+    @patient.user = current_user
 
+    @family = Family.new(params[:family])
+    
     respond_to do |format|
       if @patient.save
         format.html { redirect_to @patient, notice: 'Patient was successfully created.' }

@@ -1,4 +1,8 @@
 Geriatool::Application.routes.draw do
+  resources :roles
+
+  devise_for :users
+
   resources :biochemistry_tests
 
   resources :cell_blood_count_tests
@@ -31,7 +35,13 @@ Geriatool::Application.routes.draw do
 
   resources :medicines
 
-  root :to => 'patients#init'
+  root :to => 'patients#index'
+  
+  ##### crear capitols pertanyents a una historia
+  resources :patients do
+    resources :families, :only => [:new, :create, :index, :edit, :show, :destroy]
+    #resources :medical_records, :only => [:new, :create, :index, :edit, :show, :destroy]
+  end
 
 
   # The priority is based upon order of creation:

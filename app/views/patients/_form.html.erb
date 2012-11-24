@@ -11,16 +11,99 @@
     </div>
   <% end %>
 
+  <!-- Part de formulari de pacients -->
 
-  <p>
-    Patient Name:
-     <%=f.text_field :name %>
-  </p>
-  <%= fields_for @family do |fa| %>
-      <p>
-        Family Name:
-        <%=fa.text_field :family_name %>
-      </p>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :birth_date %><br />
+    <%= f.date_select :birth_date %>
+  </div>
+  <div class="field">
+    <%= f.label :sex %><br />
+    <%= f.text_field :sex %>
+  </div>
+  <div class="field">
+    <%= f.label :dni %><br />
+    <%= f.text_field :dni %>
+  </div>
+  <div class="field">
+    <%= f.label :cip %><br />
+    <%= f.text_field :cip %>
+  </div>
+  <div class="field">
+    <%= f.label :image %><br />
+    <%= f.text_field :image %>
+  </div>
+  <div class="field">
+    <%= f.label :room %><br />
+    <%= f.text_field :room %>
+  </div>
+  <div class="field">
+    <%= f.label :admission %><br />
+    <%= f.number_field :admission %>
+  </div>
+  <div class="field">
+    <%= f.label :exit %><br />
+    <%= f.number_field :exit %>
+  </div>
+  <div class="field">
+    <%= f.label :exitus %><br />
+    <%= f.number_field :exitus %>
+  </div>
+  <div class="field">
+    <%= f.label :registered %><br />
+    <%= f.number_field :registered %>
+  </div>
+  <div class="field">
+    <%= f.label :code %><br />
+    <%= f.text_field :code %>
+  </div>
+  <div class="field">
+    <%= f.label :cap %><br />
+    <%= f.text_field :cap %>
+  </div>
+  <div class="field">
+    <%= f.label :cap_doctor %><br />
+    <%= f.text_field :cap_doctor %>
+  </div>
+  <div class="field">
+    <%= f.label :insurance_comp %><br />
+    <%= f.text_field :insurance_comp %>
+  </div>
+
+<!-- Part de formulari de familia -->
+<h1>New family</h1>
+
+  <%= f.fields_for :family do |fa| %>
+    <div class="field">
+      <%= fa.label :family_name %><br />
+      <%= fa.text_field :family_name %>
+    </div>
+    <div class="field">
+      <%= fa.label :phone %><br />
+      <%= fa.text_field :phone %>
+    </div>
+    <div class="field">
+      <%= fa.label :mobile_phone %><br />
+      <%= fa.text_field :mobile_phone %>
+    </div>
+    <div class="field">
+      <%= fa.label :family_name_2 %><br />
+      <%= fa.text_field :family_name_2 %>
+    </div>
+    <div class="field">
+      <%= fa.label :phone_2 %><br />
+      <%= fa.text_field :phone_2 %>
+    </div>
+    <div class="field">
+      <%= fa.label :mobile_phone_2 %><br />
+      <%= fa.text_field :mobile_phone_2 %>
+    </div>
+
+
    <% end %>
   <div class="actions">
       <%= f.submit %>

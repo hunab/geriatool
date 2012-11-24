@@ -1,6 +1,6 @@
 class PatientsController < ApplicationController
   
-  load_and_authorize_resource
+  #load_and_authorize_resource
   before_filter :authenticate_user!
 
   # GET /patients
@@ -29,7 +29,7 @@ class PatientsController < ApplicationController
   # GET /patients/new.json
   def new
     @patient = Patient.new
-    @family = Family.new
+    @patient.build_family
     #@medical_record = Medical_record.new
     respond_to do |format|
       format.html # new.html.erb
@@ -47,8 +47,6 @@ class PatientsController < ApplicationController
     @patient = Patient.new(params[:patient])
     @patient.user = current_user
 
-    @family = Family.new(params[:family])
-    
     respond_to do |format|
       if @patient.save
         format.html { redirect_to @patient, notice: 'Patient was successfully created.' }

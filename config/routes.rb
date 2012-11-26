@@ -40,7 +40,7 @@ Geriatool::Application.routes.draw do
   ##### crear capitols pertanyents a una historia
   resources :patients do
     resources :families, :only => [:new, :create, :index, :edit, :show, :destroy]
-    #resources :medical_records, :only => [:new, :create, :index, :edit, :show, :destroy]
+    resources :medical_records, :only => [:new, :create, :index, :edit, :show, :destroy]
   end
 
 

@@ -105,6 +105,46 @@
 
 
    <% end %>
+
+   <!-- Part de formulari de medical records -->
+<h1>New Medical Record</h1>
+
+  <%= f.fields_for :medical_record do |mr| %>
+     <div class="field">
+    <%= mr.label :allergies %><br />
+    <%= mr.text_field :allergies %>
+  </div>
+  <div class="field">
+    <%= mr.label :decreasings %><br />
+    <%= mr.text_field :decreasings %>
+  </div>
+  <div class="field">
+    <%= mr.label :diet %><br />
+    <%= mr.text_field :diet %>
+  </div>
+  <div class="field">
+    <%= mr.label :incontinence %><br />
+    <%= mr.text_field :incontinence %>
+  </div>
+  <div class="field">
+    <%= mr.label :objective %><br />
+    <%= mr.text_field :objective %>
+  </div>
+  <div class="field">
+    <%= mr.label :admission_date %><br />
+    <%= mr.date_select :admission_date %>
+  </div>
+  <div class="field">
+    <%= mr.label :exit_date %><br />
+    <%= mr.date_select :exit_date %>
+  </div>
+  <div class="field">
+    <%= mr.label :exit_report %><br />
+    <%= mr.text_area :exit_report %>
+  </div>
+
+
+   <% end %>
   <div class="actions">
       <%= f.submit %>
   </div>

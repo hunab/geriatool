@@ -48379,3 +48379,2359 @@ ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
 
 
   Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/patients/new" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Processing by PatientsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered patients/_form.html.erb (57.9ms)
+  Rendered patients/new.html.erb within layouts/application (58.9ms)
+Completed 200 OK in 169ms (Views: 82.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:41:04 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/patients" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Processing by PatientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OLjLeXtvn/pnmS+C7QynPU1SEjcpqqPJFLLj1UBDsgg=", "patient"=>{"name"=>"patient 222222", "birth_date(1i)"=>"2012", "birth_date(2i)"=>"11", "birth_date(3i)"=>"26", "sex"=>"", "dni"=>"", "cip"=>"", "image"=>"", "room"=>"", "admission"=>"", "exit"=>"", "exitus"=>"", "registered"=>"", "code"=>"", "cap"=>"", "cap_doctor"=>"", "insurance_comp"=>"", "family_attributes"=>{"family_name"=>"family 222222", "phone"=>"", "mobile_phone"=>"", "family_name_2"=>"", "phone_2"=>"", "mobile_phone_2"=>""}, "medical_record_attributes"=>{"allergies"=>"allergies 22222222", "decreasings"=>"", "diet"=>"", "incontinence"=>"", "objective"=>"", "admission_date(1i)"=>"2012", "admission_date(2i)"=>"11", "admission_date(3i)"=>"26", "exit_date(1i)"=>"2012", "exit_date(2i)"=>"11", "exit_date(3i)"=>"26", "exit_report"=>""}}, "commit"=>"Create Patient"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "patients" ("admission", "birth_date", "cap", "cap_doctor", "cip", "code", "created_at", "dni", "exit", "exitus", "image", "insurance_comp", "name", "registered", "room", "sex", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["admission", nil], ["birth_date", Mon, 26 Nov 2012], ["cap", ""], ["cap_doctor", ""], ["cip", ""], ["code", ""], ["created_at", Mon, 26 Nov 2012 12:41:29 UTC +00:00], ["dni", ""], ["exit", nil], ["exitus", nil], ["image", ""], ["insurance_comp", ""], ["name", "patient 222222"], ["registered", nil], ["room", ""], ["sex", ""], ["updated_at", Mon, 26 Nov 2012 12:41:29 UTC +00:00], ["user_id", 1]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "families" ("created_at", "family_name", "family_name_2", "mobile_phone", "mobile_phone_2", "patient_id", "phone", "phone_2", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Mon, 26 Nov 2012 12:41:29 UTC +00:00], ["family_name", "family 222222"], ["family_name_2", ""], ["mobile_phone", ""], ["mobile_phone_2", ""], ["patient_id", 2], ["phone", ""], ["phone_2", ""], ["updated_at", Mon, 26 Nov 2012 12:41:29 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "medical_records" ("admission_date", "allergies", "created_at", "decreasings", "diet", "exit_date", "exit_report", "incontinence", "objective", "patient_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["admission_date", Mon, 26 Nov 2012], ["allergies", "allergies 22222222"], ["created_at", Mon, 26 Nov 2012 12:41:29 UTC +00:00], ["decreasings", ""], ["diet", ""], ["exit_date", Mon, 26 Nov 2012], ["exit_report", ""], ["incontinence", ""], ["objective", ""], ["patient_id", 2], ["updated_at", Mon, 26 Nov 2012 12:41:29 UTC +00:00]]
+  [1m[35m (3.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/patients/2
+Completed 302 Found in 18ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/patients/2" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Processing by PatientsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPatient Load (0.1ms)[0m  SELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered patients/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 76ms (Views: 73.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:41:29 +0100
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/patients" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Processing by PatientsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPatient Load (0.1ms)[0m  SELECT "patients".* FROM "patients" 
+  Rendered patients/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:41:34 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started DELETE "/patients/1" for 127.0.0.1 at 2012-11-26 13:41:40 +0100
+Processing by PatientsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OLjLeXtvn/pnmS+C7QynPU1SEjcpqqPJFLLj1UBDsgg=", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPatient Load (0.1ms)[0m  SELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "patients" WHERE "patients"."id" = ?  [["id", 1]]
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `families' for #<Patient:0x00000104f11f58>):
+  app/models/patient.rb:13:in `cleanup'
+  app/controllers/patients_controller.rb:81:in `destroy'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/patients" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Processing by PatientsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mPatient Load (0.1ms)[0m  [1mSELECT "patients".* FROM "patients" [0m
+  Rendered patients/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:48:45 +0100
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:46 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:46 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:46 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:48:46 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/patients" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Processing by PatientsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mPatient Load (0.1ms)[0m  [1mSELECT "patients".* FROM "patients" [0m
+  Rendered patients/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:48:47 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started DELETE "/patients/1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Processing by PatientsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OLjLeXtvn/pnmS+C7QynPU1SEjcpqqPJFLLj1UBDsgg=", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mPatient Load (0.2ms)[0m  [1mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFamily Load (0.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."patient_id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "families" WHERE "families"."id" = ?  [["id", 1]]
+  [1m[36mMedicalRecord Load (0.1ms)[0m  [1mSELECT "medical_records".* FROM "medical_records" WHERE "medical_records"."patient_id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "medical_records" WHERE "medical_records"."id" = ?  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 1]]
+  [1m[35m (3.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/patients
+Completed 302 Found in 134ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/patients" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Processing by PatientsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPatient Load (0.1ms)[0m  SELECT "patients".* FROM "patients" 
+  Rendered patients/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 26.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:49:25 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/patients/2" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Processing by PatientsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPatient Load (0.1ms)[0m  SELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered patients/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 25.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:49:32 +0100
+Served asset /defaults.js - 404 Not Found (51ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/patients/2/families/2" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Processing by FamiliesController#show as HTML
+  Parameters: {"patient_id"=>"2", "id"=>"2"}
+  [1m[36mFamily Load (0.2ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mPatient Load (0.1ms)[0m  SELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered families/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:49:34 +0100
+Served asset /defaults.js - 404 Not Found (27ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/patients/1/families/1" for 127.0.0.1 at 2012-11-26 13:49:41 +0100
+Processing by FamiliesController#show as HTML
+  Parameters: {"patient_id"=>"1", "id"=>"1"}
+  [1m[35mFamily Load (0.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Family with id=1):
+  app/controllers/families_controller.rb:16:in `show'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/patients/1/" for 127.0.0.1 at 2012-11-26 13:49:47 +0100
+Processing by PatientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPatient Load (1.1ms)[0m  SELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Patient with id=1):
+  app/controllers/patients_controller.rb:20:in `show'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/families" for 127.0.0.1 at 2012-11-26 13:49:54 +0100
+Processing by FamiliesController#index as HTML
+  [1m[36mFamily Load (0.2ms)[0m  [1mSELECT "families".* FROM "families" [0m
+  Rendered families/index.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:49:55 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/medical_records/1" for 127.0.0.1 at 2012-11-26 13:50:02 +0100
+Processing by MedicalRecordsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMedicalRecord Load (0.3ms)[0m  [1mSELECT "medical_records".* FROM "medical_records" WHERE "medical_records"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find MedicalRecord with id=1):
+  app/controllers/medical_records_controller.rb:16:in `show'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (49.0ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (57.2ms)
+
+
+Started GET "/medical_records/" for 127.0.0.1 at 2012-11-26 13:50:05 +0100
+Processing by MedicalRecordsController#index as HTML
+  [1m[35mMedicalRecord Load (0.2ms)[0m  SELECT "medical_records".* FROM "medical_records" 
+  Rendered medical_records/index.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:50:06 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 13:52:52 +0100
+
+ArgumentError (No association found for name `family'. Has it been defined yet?):
+  app/models/patient.rb:5:in `<class:Patient>'
+  app/models/patient.rb:1:in `<top (required)>'
+  app/controllers/patients_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Processing by PatientsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mPatient Load (0.1ms)[0m  [1mSELECT "patients".* FROM "patients" [0m
+  Rendered patients/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 118ms (Views: 25.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/biochemistry_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /biochemistry_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /clinical_courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /cell_blood_count_tests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /containments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /diagnoses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /falls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /exitus.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /families.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /hospital_derivations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /galeries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /medical_records.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /patients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /roles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /medicines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /vaccines.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /ulcers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /treatments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/containments.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /containments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clinical_courses.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /clinical_courses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cell_blood_count_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /cell_blood_count_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/biochemistry_tests.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /biochemistry_tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diagnoses.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /diagnoses.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital_derivations.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /hospital_derivations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falls.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /falls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/families.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /families.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exitus.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /exitus.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeries.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /galeries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medical_records.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /medical_records.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/medicines.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /medicines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/patients.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /patients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /roles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /treatments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ulcers.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /ulcers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vaccines.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /vaccines.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-26 13:53:18 +0100
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-11-26 13:53:19 +0100
+Served asset /defaults.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Victor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Victor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)

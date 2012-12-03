@@ -16,25 +16,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <%= link_to "Global Stories", root_path, :class => "brand"%>
+          <%= link_to "GeriaTool", root_path, :class => "brand"%>
 			<div class="container nav-collapse">
 	            <ul class="nav pull-right">
-	              <% if user_signed_in? %>
-      	 				  <%= link_to current_user.email %>
-      	 				  <%= link_to current_user.role %>
+					<% if user_signed_in? %>      	 				  
+						<%= link_to current_user.email %>
+      	 				<%= link_to current_user.role %>
       	 				</br>
-      	 				  <% if current_user.role == "admin" %>
+      	 				<% if current_user.role == "admin" %>
       	 				  	<%= link_to('Sign up', new_user_registration_path) %>
-      	 				  <%end%>
+      	 				<%end%>
       	 				</br>
-	              
-                  <%= link_to('Logout', destroy_user_session_path, :method => 'delete')%>
-
-	              <% else %>
-	                
-	                </br>
-	                <%= link_to('Login', new_user_session_path) %>
-	              <% end %>
+	               		<%= link_to('Logout', destroy_user_session_path, :method => 'delete')%>
+					<% else %>
+	                	</br>
+	                	<%= link_to('Login', new_user_session_path) %>
+	              	<% end %>
 	            </ul>
 	        </div><!--/.nav-collapse -->
         </div>
@@ -64,7 +61,7 @@
 		    	<br/>
 		    	<p>&copy; GeriaTool 2012</p>
 		    </footer>
-		</div> <!-- /container -->
+	</div> <!-- /container -->
 
 </body>
 </html>

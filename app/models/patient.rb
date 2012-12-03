@@ -13,4 +13,7 @@ class Patient < ActiveRecord::Base
 	
 	belongs_to :user
 	validates :name, :presence => true
+
+	#Related forms
+	has_many :diagnosis
 end

@@ -1,7 +1,7 @@
 class PatientsController < ApplicationController
   
   #load_and_authorize_resource
-  before_filter :authenticate_user!
+  #before_filter :authenticate_user!
 
   # GET /patients
   # GET /patients.json
@@ -39,6 +39,7 @@ class PatientsController < ApplicationController
  # GET /patients/1/edit
   def edit
     @patient = Patient.find(params[:id])
+    #unauthorized! if cannot? :update, @patient
   end
 
   # POST /patients

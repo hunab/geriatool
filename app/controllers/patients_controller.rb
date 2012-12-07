@@ -6,7 +6,9 @@ class PatientsController < ApplicationController
   # GET /patients
   # GET /patients.json
   def index
-    @patients = Patient.all
+    #adding the search gem to the app
+    @search = Patient.search(params[:search])
+    @patients = @search.all
 
     respond_to do |format|
       format.html # index.html.erb

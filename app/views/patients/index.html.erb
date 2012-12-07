@@ -1,5 +1,11 @@
 <h1>Listing patients</h1>
 
+<%= form_for @search, :url => patients_path, :html => {:method => :get} do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name_contains %><br />
+      <%= f.submit %>
+<% end %>
+
 <table>
   <tr>
     <th>Name</th>

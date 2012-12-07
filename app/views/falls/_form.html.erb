@@ -1,4 +1,4 @@
-<%= form_for(@fall) do |f| %>
+<%= form_for([@patient,@fall]) do |f| %>
   <% if @fall.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@fall.errors.count, "error") %> prohibited this fall from being saved:</h2>

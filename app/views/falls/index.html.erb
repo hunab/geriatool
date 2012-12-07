@@ -11,15 +11,19 @@
 
 <% @falls.each do |fall| %>
   <tr>
-    <td><%= fall.fall_date %></td>
-    <td><%= fall.fall %></td>
-    <td><%= link_to 'Show', fall %></td>
-    <td><%= link_to 'Edit', edit_fall_path(fall) %></td>
-    <td><%= link_to 'Destroy', fall, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% if fall.patient_id == @patient.id %>
+      <td><%= fall.fall_date %></td>
+      <td><%= fall.fall %></td>
+      <td><%= link_to 'Show', patient_fall_path(@patient.id,fall.id) %></td>
+      <td><%= link_to 'Edit', edit_patient_fall_path(@patient.id,fall.id) %></td>
+      <td><%= link_to 'Destroy', fall, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Fall', new_fall_path %>
+<%= link_to 'New Fall', new_patient_fall_path %>
+<br />
+<%= link_to 'Back', patients_path %>

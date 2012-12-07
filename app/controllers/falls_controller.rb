@@ -2,7 +2,9 @@ class FallsController < ApplicationController
   # GET /falls
   # GET /falls.json
   def index
+    @patient = Patient.find params[:patient_id]
     @falls = Fall.all
+
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,6 +17,10 @@ class FallsController < ApplicationController
   def show
     @fall = Fall.find(params[:id])
 
+      if(!params[:patient_id].blank?)
+        @patient = Patient.find(params[:patient_id]) 
+      end
+    
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @fall }
@@ -24,6 +30,7 @@ class FallsController < ApplicationController
   # GET /falls/new
   # GET /falls/new.json
   def new
+    @patient = Patient.find(params[:patient_id]) 
     @fall = Fall.new
 
     respond_to do |format|
@@ -40,11 +47,13 @@ class FallsController < ApplicationController
   # POST /falls
   # POST /falls.json
   def create
+    @patient= Patient.find(params[:patient_id])
     @fall = Fall.new(params[:fall])
+    @fall.patient = @patient
 
     respond_to do |format|
       if @fall.save
-        format.html { redirect_to @fall, notice: 'Fall was successfully created.' }
+        format.html { redirect_to patient_falls_path(@patient), notice: 'Fall was successfully created.' }
         format.json { render json: @fall, status: :created, location: @fall }
       else
         format.html { render action: "new" }
@@ -60,7 +69,7 @@ class FallsController < ApplicationController
 
     respond_to do |format|
       if @fall.update_attributes(params[:fall])
-        format.html { redirect_to @fall, notice: 'Fall was successfully updated.' }
+        format.html { redirect_to patient_fall_path(@fall.patient_id,@fall), notice: 'Fall was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

@@ -42,5 +42,6 @@ Geriatool::Application.routes.draw do
     resources :families, :only => [:new, :create, :index, :edit, :show, :destroy]
     resources :medical_records, :only => [:new, :create, :index, :edit, :show, :destroy]
     resources :diagnoses, :only => [:new, :create, :index, :edit, :show, :destroy]
+    resources :falls, :only => [:new, :create, :index, :edit, :show, :destroy]
   end
 end

@@ -16,4 +16,5 @@ class Patient < ActiveRecord::Base
 
 	#Related forms
 	has_many :diagnosis
+	has_many :falls
 end

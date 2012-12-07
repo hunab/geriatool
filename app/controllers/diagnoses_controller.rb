@@ -39,7 +39,6 @@ class DiagnosesController < ApplicationController
   # GET /diagnoses/1/edit
   def edit
     @diagnosis = Diagnosis.find(params[:id])
-    #@patient = Patient.find(params[:patient_id]) 
   end
 
   # POST /diagnoses
